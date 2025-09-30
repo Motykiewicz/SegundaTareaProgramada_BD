@@ -1,0 +1,28 @@
+{
+  "name": "primeratareaprogramada_bd",
+  "version": "1.0.0",
+  "description": "Implementar una prueba de concepto para conectar una base de datos a un programa que implementa funcionalidades simples (consulta e inserción) y que corre en un web browser.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "msnodesqlv8": "^5.1.1",
+    "mssql": "^11.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Motykiewicz/PrimeraTareaProgramada_BD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Motykiewicz/PrimeraTareaProgramada_BD/issues"
+  },
+  "homepage": "https://github.com/Motykiewicz/PrimeraTareaProgramada_BD#readme"
+}

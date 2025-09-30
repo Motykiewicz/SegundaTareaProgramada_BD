@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1 BD Nathaniel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Empleados</h1>
+    </header>
+
+    <main class="container">
+        <table id="employeeTable" class="grid" style="margin: 32px auto;">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Salario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- aqui se van a ir insertando la fila de empleados -->
+        </table>
+    </main>
+
+<footer class ="footer">
+    <button id="Insertar">Insertar</button>
+</footer>
+
+  <dialog id="modal">
+    <form method="dialog" class="modal-card" id="formInsertar">
+      <h2>Insertar Empleado</h2>
+
+      <label>Nombre
+        <input id="nombre" name="nombre" placeholder="Solo letras y guion (-)" />
+      </label>
+
+      <label>Salario
+        <input id="salario" name="salario" type="number" step="0.01" placeholder="Ej: 300000.00" />
+      </label>
+
+      <p class="error" id="errorForm" hidden></p>
+
+      <div class="actions">
+        <button value="cancel" class="btn secondary" id="btnCancelar">Regresar</button>
+        <button class="btn primary" id="btnEnviar">Insertar</button>
+      </div>
+    </form>
+  </dialog>
+
+</body>
+</html>
