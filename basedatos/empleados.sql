@@ -49,7 +49,7 @@ INSERT INTO dbo.Empleado (Nombre, Salario) VALUES
 ('Silvia Viquez', 1300000.00), -- 37
 ('Diego Valdez', 1400000.00), -- 38
 ('Lorena Benavidez', 1500000.00), -- 39
-('Esteban Sanchez', 1600000.00); -- 40
+('Esteban Sanchez', 1600000.00); -- 40 -
 GO
 
 select * from dbo.Empleado;
