@@ -87,7 +87,7 @@ btnEnviar.addEventListener("click", async (e) => {
   const Nombre  = inputNombre.value;
   const Salario = inputSalario.value;
 
-  // Validaciones en frontend (requeridas por la tarea)
+  // Validaciones en frontend (requeridas por la tarea)3
   if (!nombreValido(Nombre)) {
     showFormError("Nombre invalido: utilice por favor solo letras, espacios o guion (-).");
     return;
