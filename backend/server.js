@@ -22,7 +22,7 @@ app.get("/api/empleados", async (req, res) => {
   }
 });
 
-// aquui insertamos los empleados con el formato { Nombre, Salario } con el sp =  sp_Empleado_Insertar
+// aquui insertamos los empleados co n el formato { Nombre, Salario } con el sp =  sp_Empleado_Insertar
 app.post("/api/empleados", async (req, res) => {
   const { Nombre, Salario } = req.body || {};
   if (!Nombre || !Nombre.trim()) return res.status(400).json({ ok: false, error: "Nombre requerido" });

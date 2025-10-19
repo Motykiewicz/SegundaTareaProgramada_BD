@@ -45,7 +45,7 @@ async function cargarEmpleados() {
       throw new Error(data.error || "Error al cargar empleados");
     }
 
-    // Renderizamos las filas
+    // Renderizamos las filass
     if (!data.data || data.data.length === 0) {
       tablaBody.innerHTML = `<tr><td colspan="3">Sin registros</td></tr>`;
       return;
@@ -66,7 +66,7 @@ async function cargarEmpleados() {
   }
 }
 
-/* abrir y cerrar el modal*/
+/* abrir y cerrar el modall*/
 btnInsertar.addEventListener("click", () => {
   // Resetea el formulario y abre el modal
   showFormError("");
@@ -87,7 +87,7 @@ btnEnviar.addEventListener("click", async (e) => {
   const Nombre  = inputNombre.value;
   const Salario = inputSalario.value;
 
-  // Validaciones en frontend (requeridas por la tarea)3
+  // Validaciones en frontend (requeridas por la tarea)
   if (!nombreValido(Nombre)) {
     showFormError("Nombre invalido: utilice por favor solo letras, espacios o guion (-).");
     return;

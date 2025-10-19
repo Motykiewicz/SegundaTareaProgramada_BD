@@ -14,7 +14,7 @@ const dbConfig = {
 
 let pool;  // pool es una conexion a la base de datos que se recicla en vez de estar creando nuevas, aqui si no hay una ya creada, la crea
           // vamos a probar a ver si nos sirve y sino la cambiamos y buscamos otra 
-          // no puedo comentar en el package.json pero ahi se ve bien y se usa commonjs en vez de module porque es mas estable y no da tantos problemas 
+          // no puedo comentar en el package.json pero ahi se ve bien y  se usa commonjs en vez de module porque es mas estable y no da tantos problemas 
 async function getPool() {
   if (pool) return pool;
   try {
